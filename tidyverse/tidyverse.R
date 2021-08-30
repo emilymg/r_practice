@@ -64,5 +64,5 @@ gapminder %>%
   filter(year == 1972) %>%
   ggplot(aes(x = continent, y = gdpPercap)) +
     geom_boxplot() +
-    scale_y_log10() +
+    scale_y_log10()
     ggtitle("Comparing GDP of all Continents in 1972")
