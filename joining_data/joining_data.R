@@ -61,5 +61,5 @@ forest_semi <- semi_join(forest_area, forest) # net forest conversion observed e
 
 # Join forest and forest_area, keep all matching rows
 forest_joined <- inner_join(forest, forest_area) %>% 
-  filter(entity != "World") %>% #exclude aggregate World datapoints
+  filter(entity != "World") #exclude aggregate World datapoints
  
