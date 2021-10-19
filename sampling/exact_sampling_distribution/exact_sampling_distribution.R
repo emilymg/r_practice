@@ -1,4 +1,5 @@
 # Exact Sampling Distribution example
+# code from Datacamp guided exercise in Course: Sampling in R
 
 library(tidyverse)
 
