@@ -61,4 +61,3 @@ ggplot(randoms_u_vs_n, aes(uniform)) +
   geom_histogram(binwidth = 0.5)
 ggplot(randoms_u_vs_n, aes(normal)) +
   geom_histogram(binwidth = 0.5)
-args(rnorm)
