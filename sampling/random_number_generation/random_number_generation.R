@@ -1,5 +1,6 @@
-# The Binomial Distribution
-
+# The Binomial Distribution\library(tidyverse)
+install.packages("tidyverse")
+library(tidyverse)
 # rbinom() generates a vector of binomial distributed random deviates given
 #   vector length(n), number of trials(size), and a fixed probability.
 # Args: rbinom(n, size, p) 
@@ -61,3 +62,4 @@ ggplot(randoms_u_vs_n, aes(uniform)) +
   geom_histogram(binwidth = 0.5)
 ggplot(randoms_u_vs_n, aes(normal)) +
   geom_histogram(binwidth = 0.5)
+
